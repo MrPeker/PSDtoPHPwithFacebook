@@ -1,0 +1,226 @@
+body 
+{
+	background: #4b6380;
+	padding-top: 3.1% ;
+	height:3450px;
+	padding-left:10.2%;
+	padding-right:10.2%;
+	overflow-x: hidden;
+}
+header {
+	width:80%;
+	height:60px;
+	background: white;
+	line-height: 60px;
+	text-align: center;
+}
+header > a 
+{
+	float:left;
+	display: block;
+	width:60px;
+}
+header > a > .header-menu {
+	width:60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #56ccc8;
+}
+header > a > .header-menu:hover
+{
+
+	background: #4dafac;
+
+}
+header > a > .header-menu > i:before 
+{
+	color:white;
+	font-size:30px;
+	line-height: 60px;
+	margin:0;
+	text-align: center;
+}
+header > a > .header-menu > i > img
+{
+	position: relative;
+	top:-15px;
+	left:-14px;
+} 
+
+header > .header-pages 
+{;
+	float:left;
+	position: absolute;
+	margin-left: 70px;
+	line-height: 30px;
+
+}
+header > .header-pages > ul 
+{
+	float:left;
+	list-style: none;
+	width:900px;
+
+}
+header > .header-pages > ul > li 
+{
+	float:left;
+	line-height: 35px;
+	padding-right:10%;
+
+}
+header > .header-pages > ul > li > a
+{
+	float:left;
+	color:#475055;
+	text-decoration: none;
+	font-family: Roboto;
+
+}
+header > .header-pages > ul > li > a:hover 
+{
+	color:#56ccc8;
+}
+header > .header-search 
+{
+	position: absolute; 
+	left:63%;
+	z-index: 10;
+}
+/*
+header > .header-search > form > button 
+{
+	background: rgba(255,255,255,0);
+	border:none;
+	border-radius: 30px;
+}
+*/
+
+header > .header-search > form > i:before 
+{
+	line-height: 60px;
+	font-size:30px;
+	color:#b7bdc1;
+	padding-right: 7px;
+	border-right:1px solid #dde2e4;
+}
+header > .header-search > form > i:hover
+{
+	cursor:pointer;
+}
+
+header > .header-search > form > input 
+{
+	position: absolute;
+	background: rgba(255,255,255,0);
+	top:30%;
+	color:#475055;
+	font-size:18px;
+	left:63%;
+	border:none;
+	border-bottom: 3px solid #56ccc8;
+	font-family: Roboto;
+}
+header > .header-search > form > input:focus 
+{
+	outline:none;
+}
+header > .header-ozellik 
+{
+	width:160px;
+	height:35px;
+	padding:12px;
+	position: relative;
+	top:2px;
+	left:825px;
+	border:none;
+	border-right: 1px solid #dde2e4;
+}
+header > .header-ozellik > button 
+{
+	float:left;
+	margin-right: 5px;
+}
+header > .header-ozellik > button > i
+{
+	color:#b2b9bd;
+}
+.uye 
+{
+	margin-top:30px;
+	background: #fff;
+	width:80%;
+	height:auto;
+	margin-bottom: 30px
+	margin-left:15px;
+	margin-right: 15px;
+}
+.uye > form > .mdl-card__title 
+{
+		color:#fff;
+}
+.uye > form > div.mdl-textfield
+{
+	margin: 15px;
+	width:100%;
+}
+.uye > form > div.mdl-textfield > input
+{
+	width:90%;
+}
+
+.uye > form > button 
+{
+	margin:15px;
+	width: 97%;
+	letter-spacing: 2px;
+}
+
+header > .header-user 
+{
+	float:left;
+	position: absolute;
+	left:74.3%;
+	top:60px;
+} 
+header > .header-user > a > button
+{
+	padding-top: 5px;
+}
+header > .header-user > a > button > i:before
+{
+	
+}
+.reklam 
+{
+	position: absolute;
+	top:10px;
+	left:0px;
+	z-index: 999;
+}
+.slider 
+{
+	position: relative;
+	top:0px;
+	left:0px;
+	margin-top: 12px;
+}
+.sliderDiv
+{
+	position: relative;
+	top:-90px;
+	height:80px;
+	padding: 5px;
+	overflow-y:scroll;
+	z-index: 999;
+	background: rgba(0,0,0,.6);
+	color: white;
+}
+.sliderSpan
+{
+	z-index: 999;
+	text-decoration: none;
+	border:none;
+	color: white;
+}

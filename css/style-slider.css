@@ -1,0 +1,130 @@
+.slider > ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.list > ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.slider {
+    position: relative;
+}
+.slider,
+.slider ul li,
+.slider ul li a img {
+    width: 500px;
+    height: 250px
+}
+.slider a.prev,
+.slider a.next {
+    background: rgba(0,0,0,.7);
+    padding: 6px;
+    position: absolute;
+    top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.slider a.next {
+    right: 20px;
+}
+.slider a.prev {
+    left: 20px
+}
+.slider a.next:hover,
+.slider a.prev:hover {
+    background-color: dodgerblue;
+    color: #fff
+}
+
+/* sayfalama */
+.slider .pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 20px
+}
+.slider .pagination a {
+    float: left;
+    padding: 6px 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    background: rgba(0,0,0,.3);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.slider .pagination a.active {
+    background-color: darkred;
+}
+
+/* carousel */
+.visible {
+    width: 565px;
+    height: auto;
+}
+.visible-inner ul li,
+.visible-inner ul,
+.visible-inner ul li a img {
+    width: 185px;
+    height: 100px;
+    margin-right: 5px;
+}
+
+.visible a.next,
+.visible a.prev {
+    height: 40px;
+    line-height: 40px;
+}
+
+/* carousel vertical */
+.visible.vertical {
+    width: 185px;
+    height: 315px
+}
+.visible.vertical .visible-inner ul li {
+    margin-bottom: 5px;
+}
+.visible.vertical a.next,
+.visible.vertical a.prev {
+    height: 20px;
+    line-height: 20px
+}
+
+/* vertical */
+.vertical a.next {
+    left: 50%;
+    width: 70px;
+    margin-left: -35px;
+    text-align: center;
+}
+.vertical a.prev {
+    left: 50%;
+    width: 70px;
+    top: auto;
+    bottom: 20px;
+    margin-left: -35px;
+    text-align: center;
+}
+
+/* list */
+.list {
+    width: 500px;
+    height: 60px;
+    border-top: 3px solid #111
+}
+.list ul li {
+    float: left;
+    width: 100px;
+    height: 60px;    
+    opacity: .5
+}
+.list ul li a img {
+    width: 100px;
+    height: 60px
+}
+.list ul li.active {
+    opacity: 1
+}
